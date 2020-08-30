@@ -1,0 +1,86 @@
+<!doctype>
+<html>
+<head>
+<title>Reg page</title>
+<style>
+p.c {
+  
+  position: absolute;
+	top: 25px;
+	right:15px;
+	font-size: 25px;
+} 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+input[type=text]:focus {
+  border: 3px solid black;
+}
+input {
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+
+}
+</style>
+</head>
+<body>
+<form action="details.html" method="GET">
+<a href=" https://www.iiit.ac.in/">
+<img src="https://www.iiit.ac.in/img/iiit-new.png" width="200" height="100">
+</a>
+<p class="c"><b><a href="https://serc.iiit.ac.in/rdip ">RDIP</a></b></p>
+<br><br>
+<ul>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="reg.html">RegistrationForm</a></li>
+</ul><br>
+<table>
+<tr>
+<td style="text-align:center;"><b>First Name :</b><td style="text-align:center;">
+  <input type="text"></td></tr>
+  <tr>
+<td style="text-align:center;"><b>Email :</b><td style="text-align:center;">
+  <input type="text"></td></tr>
+  <tr>
+<td style="text-align:center;"><b>Phone Number :</b><td style="text-align:center;">
+  <input type="text"></td></tr>
+<tr>
+<td style="text-align:center;"><b>Gender :</b><td style="text-align:center;">
+ <b> <input type="radio" name ="r1">Male<input type="radio" name ="r1">Female<input type="radio" name ="r1">Others</td></tr></b>
+  <tr>
+<td style="text-align:center;"><b>Reason for RDIP :</b><td style="text-align:center;">
+<b>  <input type="checkbox" name ="r1">HTML<input type="checkbox" name ="r1">CSS<input type="checkbox" name ="r1">JavaScript</td></tr></b>
+  <tr>
+<td style="text-align:center;"><b>College Name :</b><td style="text-align:center;">
+  <input type="text"></td></tr>
+<tr><td style="text-align:center;"><input type="checkbox" name ="r1"><td style="text-align:center;"><b>I declare the above details given by me are true</b></td></tr><br>
+<tr><td style="text-align:center;"><button type="submit" value="Submit">Submit</button></td>
+<td style="text-align:center;"><button type="reset" value="Reset">Reset</button></td></tr>
+</table>
+</body>
+</html>
